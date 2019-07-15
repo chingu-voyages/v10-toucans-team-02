@@ -69,6 +69,7 @@ main{
     justify-content: center;
 }
 
+
 .container{
     width: 100%;
     margin: 0 auto;
@@ -88,6 +89,31 @@ main{
     line-height: 1;
     margin-bottom: 2rem;
     letter-spacing: -.1875rem;
+    margin: 0;
+}
+
+
+
+#howitworks{
+    margin: 0;
+    align-items: center;
+    background-color: #90ddaa;
+    align-items: center;
+    justify-content: center;
+    padding: 10pt;
+}
+
+.description{
+    text-align: center;
+    height: 100%;
+}
+
+.description h1{
+    color: rgba(0, 0, 0, 1);
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    letter-spacing: -.3875rem;
     margin: 0;
 }
 
