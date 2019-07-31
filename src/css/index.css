@@ -11,8 +11,12 @@ body{
     background-color: #fafafa;
     color: rgba(0, 0, 0, 0.75);
     margin: 0;
+    font-family: 'Signika', sans-serif;
 }
 
+h1, h2, h3{
+    font-weight: 300;
+}
 .site-header{
     background-color: #40596b;
     margin: 0px auto;
@@ -60,6 +64,7 @@ main{
 
 .page{
     margin: 0;
+    padding: 1rem;
 }
 
 .hero{
@@ -75,6 +80,19 @@ main{
     max-width: 1200px;
     font-size: 1.25rem;
     padding: 0 1rem;
+    
+}
+
+.container-flex{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container-flex>*{
+    margin: 1rem;
+    min-width: 300px;
 }
 
 .hero_description{
@@ -91,3 +109,103 @@ main{
     margin: 0;
 }
 
+.hero_description strong{
+    color: rgba(0, 0, 0, .65);
+}
+
+strong{
+    font-weight: 600;
+
+}
+
+.slogan{
+    color: #fff;
+    font-size: 1.675rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+}
+
+.reveal-item-visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-cta{
+    align-items: center;
+    background-color: #fff;
+    border:0;
+    border-radius: 4px;
+    display: flex;
+    font-size: 1.75rem;
+    line-height: 1;
+    max-width: 300px;
+    padding: 1rem;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-cta img{
+    padding: 0;
+    margin: 0 1rem 0 0;
+    width: 2.5rem;
+    
+}
+
+img{
+    border-style: none;
+}
+
+.page__title{
+    flex-basis: 100%;
+    font-size: 2.5rem;
+    letter-spacing: -.125rem;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.page__title:after{
+    background-color: #55c0ec;
+    bottom: 0;
+    content:"";
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 160px;
+}
+
+.half_page{
+    columns: 2;
+    list-style-type: none;
+    margin: 0;
+}
+
+.half_page li{
+    width: 80%;
+    line-height: 2rem;
+    /* padding: 5px; */
+}
+
+.container--flex>*{
+    margin:1rem;
+    min-width: 300px;
+}
+
+.hero_bot{
+    display: flex;
+    height: 400px;
+    width: 544px;
+    justify-content: center;
+
+}
+
+.hero_bot svg{
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+}
