@@ -110,7 +110,6 @@ main{
     margin: 0;
 }
 
-<<<<<<< HEAD
 .hero_description strong{
     color: rgba(0, 0, 0, .65);
 }
@@ -211,7 +210,6 @@ img{
     max-width: 400px;
     width: 100%;
 }
-=======
 
 
 #howitworks{
@@ -237,4 +235,40 @@ img{
     margin: 0;
 }
 
->>>>>>> 937aa680fe69ceaf798aecaa47baee36b282c609
+.columns {
+    display:flex;
+    margin: 16px;
+    width: 30%;
+    min-width: 341px;
+    background-color: #40596b;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 4px;
+    align-self: stretch;
+}
+
+.column-image {
+    width: 100%;
+    max-width: 224px;
+    height: auto;
+    margin: 4rem 0;
+  }
+
+  .column-description {
+    background-color: #fafafa;
+    height:auto;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.column-span {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 2px;
+    color: crimson;
+    margin: 0;
+    padding: .2rem;
+}
