@@ -272,3 +272,40 @@ img{
     margin: 0;
     padding: .2rem;
 }
+
+#startusingtickybot {
+    margin: 0;
+    background-color: #FAFAFA;
+    color: #3F3F3F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cta {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.btn-cta-dark {
+    background-color: #40596b;
+    color: #EDEDED;
+}
+
+footer {
+  background-color: #40596b;
+  padding: 0.8rem;
+
+}
+
+footer p {
+  font-weight: 300;
+  color: #B9C2C9;
+  text-align: center;
+}
